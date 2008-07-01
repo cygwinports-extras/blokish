@@ -1,0 +1,63 @@
+blokish
+------------------------------------------
+Open source clone of the four-player board game Blokus. Players attempt 
+to place as many of their 21 pieces on the board while preventing other 
+players from doing the same. Features a rudimentary AI.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libGL1-7.0.3-1
+  wx26-base-2.6.4.0-4
+  wx26-gtk2-2.6.4.0-4
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.7-1.7.9-3
+  binutils-20080523-1
+  cygport-0.3.11-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://idav.ucdavis.edu/~dfalcant/hobby_projects.html
+
+Canonical download:
+  http://downloads.sourceforge.net/blokish
+
+-------------------------------------------
+
+Build instructions:
+  unpack blokish-0.9.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./blokish-0.9.4-X.cygport all
+
+This will create:
+  /usr/src/blokish-0.9.4-X-src.tar.bz2
+  /usr/src/blokish-0.9.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/blokish.exe
+  /usr/share/doc/blokish-0.9.4/AUTHORS
+  /usr/share/doc/blokish-0.9.4/COPYING
+  /usr/share/doc/blokish-0.9.4/ChangeLog
+  /usr/share/doc/blokish-0.9.4/INSTALL
+  /usr/share/doc/blokish-0.9.4/README
+
+------------------
+
+Port Notes:
+
+----- version 0.9.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
