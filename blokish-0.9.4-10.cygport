@@ -2,7 +2,8 @@ WX_VERSION=2.8
 WX_TOOLKIT=gtk2
 inherit wxwidgets
 
-HOMEPAGE="Blokus game with AI"
+DESCRIPTION="Blokus game with AI"
+HOMEPAGE="http://sourceforge.net/projects/blokish/"
 SRC_URI="mirror://sourceforge/${PN}/${PN}_v${PV}.tgz"
 PATCH_URI="mirror://portage/games-board/${PN}/files/${P}-gcc43.patch
            0.9.4-wx-config.patch"
