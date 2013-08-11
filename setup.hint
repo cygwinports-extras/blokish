@@ -1,7 +1,0 @@
-category: Games
-requires: libgcc1 libGL1 libstdc++6 libwx_baseu2.8_0 libwx_gtk2u2.8_0
-sdesc: "Blokus game with AI"
-ldesc: "Open source clone of the four-player board game Blokus. Players 
-attempt to place as many of their 21 pieces on the board while 
-preventing other players from doing the same. Features a rudimentary 
-AI."
